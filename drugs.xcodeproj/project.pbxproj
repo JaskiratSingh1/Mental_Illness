@@ -13,6 +13,8 @@
 		2A2F424625AA7AE200829E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F424425AA7AE200829E91 /* Main.storyboard */; };
 		2A2F424825AA7AE400829E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F424725AA7AE400829E91 /* Assets.xcassets */; };
 		2A2F424B25AA7AE400829E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F424925AA7AE400829E91 /* LaunchScreen.storyboard */; };
+		2A2F425525AA852C00829E91 /* custom_cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F425425AA852C00829E91 /* custom_cell.swift */; };
+		2A2F425825AA85E800829E91 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F425725AA85E800829E91 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2A2F424725AA7AE400829E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2F424A25AA7AE400829E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A2F424C25AA7AE400829E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2F425425AA852C00829E91 /* custom_cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_cell.swift; sourceTree = "<group>"; };
+		2A2F425725AA85E800829E91 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2A2F424725AA7AE400829E91 /* Assets.xcassets */,
 				2A2F424925AA7AE400829E91 /* LaunchScreen.storyboard */,
 				2A2F424C25AA7AE400829E91 /* Info.plist */,
+				2A2F425425AA852C00829E91 /* custom_cell.swift */,
+				2A2F425725AA85E800829E91 /* DetailViewController.swift */,
 			);
 			path = drugs;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				2A2F424325AA7AE200829E91 /* ViewController.swift in Sources */,
 				2A2F423F25AA7AE200829E91 /* AppDelegate.swift in Sources */,
+				2A2F425825AA85E800829E91 /* DetailViewController.swift in Sources */,
+				2A2F425525AA852C00829E91 /* custom_cell.swift in Sources */,
 				2A2F424125AA7AE200829E91 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
